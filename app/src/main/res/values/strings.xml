@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Perfil de Usuario</string>
+    <string name="hint_nombre">Ingresa tu nombre</string>
+    <string name="btn_ver_perfil">Ver Perfil</string>
+    <string name="btn_abrir_web">Visitar Nuestra Web</string>
+    <string name="web_url">https://www.youtube.com</string>
+</resources>
