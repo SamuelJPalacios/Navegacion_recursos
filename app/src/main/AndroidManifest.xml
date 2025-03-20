@@ -13,22 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Navegacion_recursos"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".SecondActivity"
-            android:exported="false"/>
+            android:exported="false" />
 
         <activity
             android:name=".WebActivity"
-            android:exported="false"/>
-    </application>
+            android:exported="false" />
 
+    </application>
 </manifest>

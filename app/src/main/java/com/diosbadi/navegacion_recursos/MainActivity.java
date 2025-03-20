@@ -1,11 +1,12 @@
 package com.diosbadi.navegacion_recursos;
 
-import android.os.Bundle;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        //Boton para abrir perfil
+        // Botón para abrir perfil
         Button btnVerPerfil = findViewById(R.id.btnVerPerfil);
         btnVerPerfil.setOnClickListener(v -> {
             EditText editTextNombre = findViewById(R.id.editTextNombre);
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        //Boton para abrir web (Intent implicito)
+        // Botón para abrir web (Intent implícito)
         Button btnAbrirWeb = findViewById(R.id.btnAbrirWeb);
         btnAbrirWeb.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, WebActivity.class);

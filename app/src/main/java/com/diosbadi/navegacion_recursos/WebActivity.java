@@ -11,8 +11,8 @@ public class WebActivity extends AppCompatActivity {
 
         WebView webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
-        //Habilitar JavaScript (opcional)
+        // Habilitar JavaScript (opcional)
         webView.loadUrl(getString(R.string.web_url));
-        //Cargar la URL desde strings.xml
+        // Cargar la URL desde strings.xml
     }
 }
